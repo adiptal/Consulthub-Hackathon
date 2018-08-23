@@ -1,0 +1,778 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ---------- ---------- TEXT BASICS ---------- ---------- */
+
+.text-blue{
+    color: #3764eb !important;
+}
+
+.text-gray{
+    color: #75828e !important;
+}
+
+.text-dark-gray{
+    color: #2e3841 !important;
+}
+
+.text-icon-gray{
+    color: #8b959e !important;
+}
+
+.text-light{
+    color: #abb0b5 !important;
+}
+
+.text-overlay-light{
+    color: #f7f8f8 !important;
+}
+
+.text-overlay-dark{
+    color: #434c53 !important;
+}
+
+/* ---------- ---------- END TEXT BASICS ---------- ---------- */
+
+
+
+/* ---------- ---------- BG BASICS ---------- ---------- */
+
+.bg-blue{
+    background-color: #3764eb !important;
+}
+
+.bg-nav{
+    background-color: #2e3841 !important;
+}
+
+.bg-dark{
+    background-color: #3d464e !important;
+}
+
+.bg-form-gray{
+    background-color: #3c4750 !important;
+}
+
+.bg-secondary{
+    background-color: #c9c9c9 !important;
+}
+
+.bg-light{
+    background-color: #ededed !important;
+}
+
+.bg-card-gray{
+    background-color: #d6d6d6 !important;
+}
+
+.bg-img-gray{
+    background-color: #d3d3d3 !important;
+}
+
+.bg-icon{
+    background-color: #f1f1f1 !important;
+}
+
+.bg-portfolio{
+    background-color: #f7f7f8 !important;
+}
+
+/* ---------- ---------- END BG BASICS ---------- ---------- */
+
+.border-blue{
+    border: solid 1px #3764eb;
+}
+
+.overlay-set{
+    position: relative;
+}
+
+.overlay{
+    font-size: 7.5em;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    left: -.15em;
+    z-index: -1;
+}
+
+.sub-title{
+    font-weight: 100;
+    font-size: 2em;
+}
+
+.main-title{
+    margin-top:-0.25em;
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    Nav Bar
+    ----------------------------------------------------------------------------------------------------
+*/
+
+/* LOGO */
+
+.logo{
+    text-align: right;
+    color: #FFF;
+    padding: 1.55em;
+    text-transform: uppercase;
+    padding-right: 3em;
+}
+
+.logo h1{
+    font-size: 2em;
+    letter-spacing: -1px;
+}
+
+.logo h6{
+    font-size: .8em;
+    letter-spacing: 3px;
+}
+
+/* END LOGO */
+
+
+/* UPPER LINKS */
+
+.nav-upper-links{
+    color: #FFF;
+    margin: .75em;
+    font-size: .8em;
+}
+
+.right-upper-links{
+    margin-right: 15em;
+}
+
+.right-upper-links li{
+    padding-right: 2em;
+}
+
+/* END UPPER LINKS */
+
+
+/* LOWER LINKS */
+.nav-lower-links{
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.nav-lower-links li{
+    padding: 1em;
+    font-size: .8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-lower-links li.active{
+    border-bottom: solid 5px #3764eb;
+    color: #3764eb !important;
+}
+
+/* END LOWER LINKS */
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END Nav Bar
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    Intro Div
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.intro-img{
+    background: #403B4A;
+    background: linear-gradient(to left, #E7E9BB, #403B4A);
+    display: table;
+    width: 100%;
+    height: 550px;
+}
+
+.intro-img .intro-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro-body .btn{
+    text-transform: uppercase;
+}
+
+
+.intro-body .btn-blue{
+    background-color: #3764eb;
+    color: #FFF;
+}
+
+.intro-body .btn-blue:hover{
+    background-color: #FFF;
+    color: #333;
+}
+
+.intro-body h2{
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+.intro-body h3{
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END Intro Div
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    About Us
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.about-us{
+    padding: 3em;
+}
+
+.about-us h3{
+    color: #FFF;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 1.5em;
+    padding-bottom: 7em;
+}
+
+.about-row{
+    position: absolute;
+    top: -14em;
+}
+
+.about-card{
+    background: #FFF;
+}
+
+.about-card .about-header{
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.about-card .about-body{
+    padding: .75em 1em 1.5em;
+}
+
+.about-data{
+    padding-top: 15em;
+    padding-bottom: 7.25em;
+}
+
+.about-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-data-desc h2{
+    font-size: 4.5em;
+    font-weight: 300;
+}
+
+.about-data-desc h3{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.about-data-desc p{
+    padding-top: .5em;
+    color: #abb0b5;
+    text-align: justify;
+    font-size: .8em;
+}
+
+.about-list{
+    font-size: .9em;
+    color: #2e3841;
+    font-weight: 600;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END About Us
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    Our Services
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.services{
+    background-color: #f6f6f7;
+    padding: 4em 0;
+}
+
+.our-services-img{
+    background-size: cover;
+}
+
+.services-card-body{
+    position: absolute;
+    bottom: -10em;
+    padding: 1em;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.services-card-body .services-header{
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.services-card-body .services-body{
+    padding: .75em 1em 1.5em;
+    font-size: .75em;
+}
+
+.btn-readmore{
+    color: #2e3841;
+    font-weight: 700;
+    font-size: .9em;
+}
+
+.service-button{
+    padding-top: 15em;
+    margin: 0 auto;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END Our Services
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    Portfolio
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.portfolio{
+    padding: 4em 0;
+    width: 100%;
+    position: relative;
+}
+.portfolio-title{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio-nav-bar{
+    text-align: center;
+    margin-bottom: 2em;
+    height: 2.2em;
+    border-radius: 2em;
+}
+
+.portfolio-nav-bar a{
+    display: inline-block;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    color: #2e3841;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.portfolio-nav-link-leftmost{
+    padding-right: 3em;
+}
+
+.portfolio-nav-link-rightmost{
+    padding-right: 1em;
+}
+
+.portfolio-nav-bar a :link , .portfolio-nav-bar a :visited{
+    text-decoration: none;
+}
+.portfolio-nav-bar a:hover , .portfolio-nav-bar a:focus{
+    text-decoration: none;
+    border-bottom: 0.1em solid #3764eb;
+}
+.portfolio-nav-bar a :active{
+    background-color: black;
+    text-decoration: none;
+}
+
+.portfolio-buttons{
+    margin: 0 auto;
+}
+
+.portfolio-buttons button{
+    font-size: .75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1em 2em;
+}
+
+.portfolio .overlay{
+    font-size: 6em;
+    font-weight: 700;
+    position: absolute;
+    top: -.48em;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END Portfolio
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    Why Choose
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.why-choose{
+    padding: 4em 0 7.5em;
+    position: relative;
+}
+
+.why-choose h2{
+    color: #FFF;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.why-choose p{
+    color: #abb0b5;
+    font-size: .75em;
+    font-weight: 300;
+}
+
+.why-choose .overlay{
+    font-size: 10em;
+    font-weight: 700;
+    position: absolute;
+    bottom: -.35em;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+    z-index: 1;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END Why Choose
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    Our Team
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.our-team{
+    padding: 4em 0;
+}
+
+.our-team h2{
+    color: #2e3841;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.our-team h3{
+    color: #3764eb;
+    font-size: .75em;
+    font-weight: 700;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END Our Team
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    Our Team Dark
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.our-team-dark{
+    padding: 4em 0;
+    background: #242e38 !important;
+}
+
+.our-team-dark a{
+    background: #28323a !important;
+    color: #FFF !important;
+}
+
+.our-team-dark h2{
+    color: #FFF !important;
+}
+
+.our-team-dark h3{
+    color: #FFF !important;
+}
+
+.our-team-dark a.bg-active{
+    background: #3764eb !important;
+}
+
+.our-team-dark h2{
+    color: #2e3841;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.our-team-dark h3{
+    color: #3764eb;
+    font-size: .75em;
+    font-weight: 700;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END Our Team Dark
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    SUBSCRIBE
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.subscribe{
+    padding: 4em 0;
+    background: #2e3841;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END SUBSCRIBE
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    CONTACT US
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.contact-us{
+    padding: 4em 0;
+}
+
+.contact-us p{
+    margin-top: 1em;
+    color: #abb0b5;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END CONTACT US
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    FOOTER
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.footer .bg-dark{
+    padding: 4em;
+    padding-bottom: 1em;
+}
+
+.footer h2{
+    font-size: .65em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer h3{
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    font-weight: 700;
+}
+
+.footer-list li a{
+    color: #abb0b5 !important;
+    font-size: .8em;
+}
+
+.bg-footer-dark{
+    background: #242e38 !important;
+}
+
+.btn-footer{
+    font-size: 1em;
+    font-weight: 700;
+    color: #FFF;
+    padding: .75em 2em;
+    background-color: #3764eb;
+}
+
+.footer-logo{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.footer-sub-logo{
+    font-size: .75em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: -1.75em;
+}
+
+.footer-p{
+    font-size: .8em;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END FOOTER
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    TITLE
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.page-title{
+    background: #242e38 !important;
+    padding: 5em 0;
+}
+
+.page-title .page-breadcrumb{
+    color: #abb0b5;
+    font-size: .75em;
+    border: solid 1px #abb0b5;
+    border-radius: 2em;
+    padding: .5em 2em;
+    margin-bottom: 2em;
+}
+
+.page-title h2{
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 3em;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    END TITLE
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.p-15{
+    margin-bottom: 15em;
+}
+
+.row-2{
+    margin-top: 15em;
+}
+
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    ABOUT PAGE
+    ----------------------------------------------------------------------------------------------------
+*/
+
+.welcome-subtitle{
+    margin-top: 1.3em;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.welcome-title{
+    margin-top: -1em;
+    font-size: 2em;
+    font-weight: 800;
+}
+.welcome-title-right{
+    font-size: 0.6em;
+    margin-top: 4.5em;
+}
+
+.welcome-text{
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.welcome-subtext{
+    font-size: 0.7em;
+}
+
+.welome-box{
+    padding: 1em;
+    border: solid 0.5px #abb0b5;
+    padding-right: 1em;
+}
+
+.welcome-icon{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* 
+    ----------------------------------------------------------------------------------------------------
+                                                    ABOUT PAGE
+    ----------------------------------------------------------------------------------------------------
+*/
+
+
+
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
